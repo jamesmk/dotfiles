@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Emmet",
+		"ERB Insert and Toggle Commands",
+		"JS2Coffee",
+		"JSHint",
+		"Package Control",
+		"Rails Related Files",
+		"Simple Rails Navigator",
+		"SublimeLinter",
+		"ZenCoding"
+	]
+}

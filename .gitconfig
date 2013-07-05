@@ -1,0 +1,31 @@
+[user]
+  name = James
+  email = james@finedesigngroup.com
+[alias]
+  co = checkout
+  stat = status -sb
+  hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  log-with-files = log --name-status --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+  editor = subl -w
+[mergetool]
+  keepBackup = true
+[color]
+  ui = 1
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[diff]
+  renames = copies
+[credential]
+  helper = cache --timeout=28800

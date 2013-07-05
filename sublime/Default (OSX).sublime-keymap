@@ -1,0 +1,9 @@
+[
+  { "keys": ["ctrl+shift+."], "command": "erb", "context":
+    [
+      { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+    ]
+  },
+  { "keys": ["ctrl+shift+m"], "command": "list_rails_models" },
+  { "keys": ["f5"], "command": "refresh_folder_list" }
+]

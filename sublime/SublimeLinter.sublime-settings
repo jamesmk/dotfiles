@@ -1,0 +1,38 @@
+{
+  "csslint_options": {
+    "adjoining-classes": false,
+    "box-model": false,
+    "box-sizing": "warning",
+    "compatible-vendor-prefixes": false,
+    "display-property-grouping": true,
+    "duplicate-background-images": false,
+    "duplicate-properties": true,
+    "empty-rules": true,
+    "errors": true,
+    "fallback-colors": "warning",
+    "floats": "warning",
+    "font-faces": "warning",
+    "font-sizes": "warning",
+    "gradients": "warning",
+    "ids": false,
+    "import": "warning",
+    "important": "warning",
+    "known-properties": true,
+    "outline-none": "warning",
+    "overqualified-elements": false,
+    "qualified-headings": false,
+    "regex-selectors": "warning",
+    "rules-count": "warning",
+    "shorthand": "warning",
+    "star-property-hack": "warning",
+    "text-indent": "warning",
+    "underscore-property-hack": "warning",
+    "unique-headings": "warning",
+    "universal-selector": "warning",
+    "vendor-prefix": true,
+    "zero-units": "warning"
+  },
+  "sublimelinter_executable_map": {
+    "ruby": "~/.rvm/bin/rvm-auto-ruby"
+  }
+}
