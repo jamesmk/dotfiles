@@ -2,6 +2,12 @@
 
 …for the masses, or maybe just myself.
 
+## OS X Settings
+
+Show hidden files in Finder  
+
+	defaults write com.apple.Finder AppleShowAllFiles YES
+
 ## Apps
 
 ### Sublime Text 2
