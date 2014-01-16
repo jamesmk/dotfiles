@@ -6,7 +6,7 @@
 
 Show hidden files in Finder  
 
-	defaults write com.apple.Finder AppleShowAllFiles YES
+	$ defaults write com.apple.Finder AppleShowAllFiles YES
 
 ## Apps
 
@@ -18,3 +18,10 @@ Show hidden files in Finder
 * Copy over Package Control settings
 * Restart and packages will install
 * Copy over package specific settings
+
+## Downloads
+
+Grab Git Autocomplete from Git's OS clone:  
+https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
+
+	$ curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash

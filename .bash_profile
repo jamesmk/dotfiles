@@ -68,3 +68,9 @@ function rvm_version {
 PROMPT_COMMAND='PS1="${c_path}\w${c_reset}$(git_prompt) $(rvm_version)\$ "'
 
 ## END PROMPT BUSINESS ##
+
+# Autocomplete for Git
+# run 'curl https://raw.github.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash' to get the bash
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
