@@ -76,3 +76,12 @@ PROMPT_COMMAND='PS1="${c_path}\w${c_reset}$(git_prompt) $(rvm_version)\$ "'
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
+
+function openbb() {
+  origin=`env -i git ls-remote --get-url origin`
+  url=${origin//'ssh://'}
+  url=${url/'git@'/'https://'}
+  url=${url/'.org:'/'.org/'}
+  url=${url/'.git'/'/pull-request/new'}
+  open $url
+}
